@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.newland</groupId>
+        <artifactId>wms-cloud-plus</artifactId>
+        <version>1.6.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>wms-common-bom</module>
+        <module>wms-common-alibaba-bom</module>
+        <module>wms-common-log</module>
+        <module>wms-common-dict</module>
+        <module>wms-common-excel</module>
+        <module>wms-common-core</module>
+        <module>wms-common-redis</module>
+        <module>wms-common-doc</module>
+        <module>wms-common-security</module>
+        <module>wms-common-satoken</module>
+        <module>wms-common-web</module>
+        <module>wms-common-mybatis</module>
+        <module>wms-common-job</module>
+        <module>wms-common-dubbo</module>
+        <module>wms-common-seata</module>
+        <module>wms-common-loadbalancer</module>
+        <module>wms-common-oss</module>
+        <module>wms-common-idempotent</module>
+        <module>wms-common-mail</module>
+        <module>wms-common-sms</module>
+        <module>wms-common-logstash</module>
+        <module>wms-common-elasticsearch</module>
+        <module>wms-common-sentinel</module>
+        <module>wms-common-skylog</module>
+        <module>wms-common-prometheus</module>
+        <module>wms-common-translation</module>
+        <module>wms-common-encrypt</module>
+    </modules>
+
+    <artifactId>wms-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        wms-common通用模块
+    </description>
+
+</project>

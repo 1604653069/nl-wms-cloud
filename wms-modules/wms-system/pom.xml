@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.newland</groupId>
+        <artifactId>wms-modules</artifactId>
+        <version>1.6.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>wms-system</artifactId>
+
+    <description>
+        wms-system系统模块
+    </description>
+
+    <dependencies>
+
+        <!-- SpringCloud Alibaba Nacos -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
+        <!-- SpringCloud Alibaba Nacos Config -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.newland</groupId>
+            <artifactId>wms-common-sentinel</artifactId>
+        </dependency>
+
+        <!-- RuoYi Common Log -->
+        <dependency>
+            <groupId>com.newland</groupId>
+            <artifactId>wms-common-log</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.newland</groupId>
+            <artifactId>wms-common-dict</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.newland</groupId>
+            <artifactId>wms-common-doc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.newland</groupId>
+            <artifactId>wms-common-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.newland</groupId>
+            <artifactId>wms-common-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.newland</groupId>
+            <artifactId>wms-common-dubbo</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.newland</groupId>
+            <artifactId>wms-common-seata</artifactId>
+        </dependency>
+
+        <!-- RuoYi Api System -->
+        <dependency>
+            <groupId>com.newland</groupId>
+            <artifactId>wms-api-system</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.newland</groupId>
+            <artifactId>wms-api-resource</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

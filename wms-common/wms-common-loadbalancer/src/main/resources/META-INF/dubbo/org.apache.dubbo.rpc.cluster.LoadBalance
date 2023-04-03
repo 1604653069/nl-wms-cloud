@@ -1,0 +1,1 @@
+customDubboLoadBalancer=com.newland.common.loadbalance.core.CustomDubboLoadBalancer

@@ -1,0 +1,5 @@
+com.newland.common.translation.config.TranslationConfig
+com.newland.common.translation.core.impl.DeptNameTranslationImpl
+com.newland.common.translation.core.impl.DictTypeTranslationImpl
+com.newland.common.translation.core.impl.OssUrlTranslationImpl
+com.newland.common.translation.core.impl.UserNameTranslationImpl

@@ -1,0 +1,2 @@
+com.newland.common.mybatis.config.MybatisPlusConfiguration
+com.newland.common.mybatis.service.SysDataScopeService
